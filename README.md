@@ -26,7 +26,7 @@ fisher add matchai/fish-mock
 $ mock
 
   Usage
-    $ mock <command> <argument> <exit code> [executed code]
+    $ mock <command> <argument> [exit code] [executed code]
 
   Arguments
     command        The command you would like to have mocked

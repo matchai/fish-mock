@@ -4,7 +4,7 @@ function mock -a cmd -a argument -a exit_code -a executed_code -d "Quick and pow
   if test (count $argv) -lt 1
     echo "
 Usage
-  \$ mock <command> <argument> <exit code> [executed code]
+  \$ mock <command> <argument> [exit code] [executed code]
 
 Arguments
   command        The command you would like to have mocked
