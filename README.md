@@ -1,8 +1,16 @@
-# fish-mock
+<p align="center">
+  <img alt="Fish" src="https://user-images.githubusercontent.com/4658208/51090739-9ec35480-174e-11e9-8a64-4b375107bb38.png" width=80px>
+  <img alt="Performance arts masks" src="https://user-images.githubusercontent.com/4658208/51090736-90753880-174e-11e9-82ba-36a703822c8e.png" width=80px>
+  <h3 align="center">fish-mock</h3>
+  <p align="center">Quick and powerful fish shell mocks</p>
+  <p align="center">
+    <a href="https://travis-ci.org/matchai/fish-mock"><img src="https://badgen.net/travis/matchai/fish-mock" alt="Build Status"></a>
+    <a href="https://fishshell.com/"><img src="https://badgen.net/badge/fish/v3.0.0" alt="Fish Version"></a>
+    <a href="https://github.com/matchai/fish-mock/blob/master/LICENSE"><img src="https://badgen.net/github/license/matchai/fish-mock" alt="License"></a>
+  </p>
+</p>
 
-Quick and powerful fish shell mocks
-
-Inspired by [Markcial/mock](https://github.com/Markcial/mock)
+---
 
 ## Installation
 
