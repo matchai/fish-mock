@@ -38,3 +38,10 @@ jobs:
       name: "Fish 3.X macOS"
       os: osx
       install: brew install fish
+
+    - stage: deploy
+      language: node_js
+      node_js: stable
+      provider: script
+      skip_cleanup: true
+      script: npx semantic-release
