@@ -44,4 +44,4 @@ jobs:
       node_js: stable
       provider: script
       skip_cleanup: true
-      script: npx semantic-release
+      script: npx semantic-release -p @semantic-release/commit-analyzer,@semantic-release/release-notes-generator,@semantic-release/github
