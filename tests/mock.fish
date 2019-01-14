@@ -82,3 +82,11 @@ end
 test "$TESTNAME It should not mock blacklisted elements 4"
    (mock "[" \*) = "The function \"[\" is reserved and therefore cannot be mocked." -a $status -eq 1
 end
+
+test "$TESTNAME Unmock previously created mock"
+   "hello joe" = (mock echo \* 0 "echo fail"; and unmock echo; and echo "hello joe")
+end
+
+test "$TESTNAME Unmock previously created mock with non-wildstar"
+   "hi" = (mock echo hi 0 "echo fail"; and unmock echo; and echo hi)
+end
