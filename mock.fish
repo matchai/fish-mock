@@ -19,7 +19,7 @@ Examples
 
 Tips
   To view this manual, use the mock command without providing arguments.
-  \$argv is accessible within mocked functions as \$args.
+  The array of arguments (\$argv) is accessible within mocked functions as \$args.
   Many mocks can be applied to the same command at the same time with different arguments.
   Be sure to escape the asterisk symbol when using it as a fallback (\*)
 "
