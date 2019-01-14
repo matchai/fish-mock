@@ -1,0 +1,8 @@
+{
+  "repositoryUrl": "https://github.com/matchai/fish-mock",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/github"
+  ]
+}
