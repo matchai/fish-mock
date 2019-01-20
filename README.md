@@ -27,6 +27,7 @@ $ mock
 
   Usage
     $ mock <command> <argument> [exit code] [executed code]
+    $ unmock <command>
 
   Arguments
     command        The command you would like to have mocked
@@ -37,7 +38,8 @@ $ mock
   Examples
     $ mock git pull 0 "echo This command successfully echoes"
     $ mock git push 1 "echo This command fails with status 1"
-    $ mock git \* 0 "echo This command acts as a fallback to all git commands"
+    $ mock git \*   0 "echo This command acts as a fallback to all git commands"
+    $ unmock git      # Original git functionality is now restored
 
   Tips
     To view this manual, use the mock command without providing arguments.
