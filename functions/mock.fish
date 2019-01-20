@@ -1,4 +1,4 @@
-function mock -a cmd -a argument -a exit_code -a executed_code -d "Quick and powerful fish shell mocks"
+function mock -a cmd -a argument -a exit_code -a executed_code -d "Mock a command"
   set -l cmd_blacklist "[" and argparse begin break builtin case command continue else end eval exec for function functions if not or read return set status switch test while
 
   if test (count $argv) -lt 1
@@ -70,14 +70,5 @@ Tips
     else
       eval command $cmd $argv
     end
-  end
-
-  function unmock -a cmd
-    functions -e $cmd
-    set -l mocked_args "_mocked_"$cmd"_args"
-    functions -e "mocked_"$cmd"_fn_"{$$mocked_args}
-    set -e $mocked_args
-    set _mocked (string match -v $cmd $_mocked)
-    return 0
   end
 end
