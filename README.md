@@ -12,6 +12,8 @@
 
 ---
 
+**fish-mock** provides a quick and easy way to override the behavior of commands for use when testing. Mocking commands causes them to behave predictably, allowing you isolate and focus on the code being tested.
+
 ## Installation
 
 ### [Fisher](https://github.com/jorgebucaran/fisher)
