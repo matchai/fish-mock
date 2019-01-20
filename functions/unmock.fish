@@ -8,8 +8,9 @@ Arguments
   command        The command you would like to unmock
 
 Examples
-  \$ unmock git  # The original git command can now be used
+  \$ unmock git   # The original git command can now be used
 "
+    return 0
   end
 
   functions -e $cmd
