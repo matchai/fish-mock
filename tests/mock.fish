@@ -87,6 +87,6 @@ test "$TESTNAME Unmock previously created mock"
    "hello joe" = (mock echo \* 0 "echo fail"; and unmock echo; and echo "hello joe")
 end
 
-test "$TESTNAME Unmock previously created mock with non-wildstar"
+test "$TESTNAME Unmock previously created mock with non-wildcard"
    "hi" = (mock echo hi 0 "echo fail"; and unmock echo; and echo hi)
 end
